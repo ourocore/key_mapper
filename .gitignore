@@ -1,0 +1,25 @@
+# Ignorar el directorio del entorno virtual
+venv/
+Trajectories/
+build/
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos específicos de sistemas operativos
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Archivos de configuración de IDEs (opcional, si los usas)
+.vscode/ # Visual Studio Code
+.idea/   # PyCharm/IntelliJ
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de logs o datos temporales (si los genera tu app)
+*.spec
+*.csv
+*.log
+*.sqlite3 # Si usas SQLite para la base de datos de desarrollo
